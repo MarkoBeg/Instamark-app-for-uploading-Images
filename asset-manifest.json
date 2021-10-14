@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Instamark-app-for-uploading-Images/static/css/main.053c7d25.chunk.css",
+    "main.js": "/Instamark-app-for-uploading-Images/static/js/main.6117332b.chunk.js",
+    "main.js.map": "/Instamark-app-for-uploading-Images/static/js/main.6117332b.chunk.js.map",
+    "runtime-main.js": "/Instamark-app-for-uploading-Images/static/js/runtime-main.22e815a7.js",
+    "runtime-main.js.map": "/Instamark-app-for-uploading-Images/static/js/runtime-main.22e815a7.js.map",
+    "static/js/2.bf6ed78b.chunk.js": "/Instamark-app-for-uploading-Images/static/js/2.bf6ed78b.chunk.js",
+    "static/js/2.bf6ed78b.chunk.js.map": "/Instamark-app-for-uploading-Images/static/js/2.bf6ed78b.chunk.js.map",
+    "index.html": "/Instamark-app-for-uploading-Images/index.html",
+    "static/css/main.053c7d25.chunk.css.map": "/Instamark-app-for-uploading-Images/static/css/main.053c7d25.chunk.css.map",
+    "static/js/2.bf6ed78b.chunk.js.LICENSE.txt": "/Instamark-app-for-uploading-Images/static/js/2.bf6ed78b.chunk.js.LICENSE.txt",
+    "static/media/image1.c6196c6b.jpg": "/Instamark-app-for-uploading-Images/static/media/image1.c6196c6b.jpg",
+    "static/media/image2.c84c35b7.jpg": "/Instamark-app-for-uploading-Images/static/media/image2.c84c35b7.jpg",
+    "static/media/image3.165439fe.jpg": "/Instamark-app-for-uploading-Images/static/media/image3.165439fe.jpg",
+    "static/media/image4.4059be55.jpg": "/Instamark-app-for-uploading-Images/static/media/image4.4059be55.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22e815a7.js",
+    "static/js/2.bf6ed78b.chunk.js",
+    "static/css/main.053c7d25.chunk.css",
+    "static/js/main.6117332b.chunk.js"
+  ]
+}
