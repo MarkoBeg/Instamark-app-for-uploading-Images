@@ -1,0 +1,98 @@
+.image-section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.image-info > img {
+  width: 475px;
+  max-width: 475px;
+  height: 550px;
+  max-height: 575px;
+}
+.person-info {
+  display: flex;
+  padding: 10px 6px;
+  align-items: center;
+}
+.person-info > h5 {
+  padding-left: 10px;
+  font-family: "Lora", "sans-serif";
+  font-weight: 600;
+  color: #000;
+}
+.caption-section {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.caption-section > .MuiSvgIcon-root {
+  color: var(--header-text-color);
+}
+.caption-text {
+  padding-left: 10px;
+  font-family: "Lora", "sans-serif";
+  font-weight: 600;
+  color: #000;
+  font-size: 14px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+.like {
+  display: flex;
+  align-items: center;
+}
+.count-red {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.icons > button {
+  border: none;
+  color: gray;
+  background: transparent;
+}
+.icons > .MuiSvgIcon-root {
+  color: gray;
+  font-size: 28px;
+}
+.icons > button > span > .MuiSvgIcon-root {
+  font-size: 28px;
+}
+.comments {
+  display: none;
+}
+.comments-section {
+  padding-top: 10px;
+}
+.comments-messages {
+  display: flex;
+  align-items: center;
+}
+.comments-messages > form > input {
+  background: transparent;
+}
+.comments-messages > h5 {
+  color: gray;
+  font-weight: bold;
+}
+.comment-input {
+  border: none;
+  margin-left: 15px;
+  outline: none;
+  padding: 6px 0;
+  font-family: var(--main-text);
+  color: gray;
+  font-size: 14px;
+}
+.comments-messages > form > button {
+  display: none;
+}
+.messages-section {
+  padding-bottom: 15px;
+}

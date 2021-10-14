@@ -1,0 +1,52 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.hero-profiles > img {
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid var(--header-text-color);
+  outline: 4px solid lightgray;
+  width: 90px;
+}
+.hero-profiles:hover > img {
+  border: none;
+}
+.hero-profiles {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+}
+.hero-profiles:hover .MuiSvgIcon-root {
+  color: var(--header-text-color);
+}
+.hero-plus {
+  position: absolute;
+  bottom: 12px;
+  right: 5px;
+  color: #055fd0;
+  z-index: 1;
+}
+.back-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.back-image > img {
+  display: grid;
+  place-items: center;
+  width: 25%;
+  height: 35%;
+  margin: 60px auto;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  border: 3px solid white;
+}

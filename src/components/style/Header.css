@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+}
+.logo > img {
+  object-fit: fill;
+  cursor: pointer;
+}
+.header-info {
+  display: flex;
+  align-items: center;
+}
+.header-info > .MuiAvatar-root {
+  cursor: pointer;
+}
+.header-info > h4 {
+  padding-left: 15px;
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: var(--header-text);
+  font-weight: 400;
+}
+.header-info > .MuiSvgIcon-root {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.header-info > h4:hover {
+  color: var(--header-text-color);
+}
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+.red {
+  color: red;
+}
+
+.transparent {
+  color: #000;
+}

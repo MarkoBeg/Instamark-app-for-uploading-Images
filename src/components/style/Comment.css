@@ -1,0 +1,27 @@
+.messages {
+  display: flex;
+  align-items: center;
+  color: gray;
+  width: 425px;
+  max-width: 425px;
+}
+
+.messages > p,
+span {
+  font-size: 14px;
+  padding-left: 6px;
+  font-family: var(--main-text);
+}
+.messages > p {
+  color: var(--header-text-color);
+  width: fit-content;
+}
+.messages > h5 {
+  font-weight: bold;
+}
+.edit {
+  display: none;
+}
+.messages > form > input {
+  background-color: transparent;
+}

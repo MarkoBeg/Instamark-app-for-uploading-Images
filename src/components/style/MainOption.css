@@ -1,0 +1,32 @@
+.mainOption {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.top-info > h5 {
+  padding-left: 10px;
+  font-family: "Lora", "sans-serif";
+  font-weight: 600;
+  padding-top: 5px;
+  color: #000;
+}
+
+.bottom-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-img > img {
+  border-radius: 8px;
+  width: 475px;
+  max-width: 475px;
+  height: 550px;
+  max-height: 575px;
+}

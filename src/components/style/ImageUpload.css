@@ -1,0 +1,43 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  max-width: 425px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.imageUpload-progress {
+  background: var(--light-green-color);
+  color: var(--light-green-color);
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+.imageUpload > p {
+  padding-left: 10px;
+  font-family: "Lora", "sans-serif";
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+}
+.imageUpload > input {
+  border-radius: 6px;
+  outline: 0;
+  border: 1px solid gray;
+  padding: 15px;
+  background-color: var(--header-text-color);
+  margin: 10px 0;
+  cursor: pointer;
+}
+.btn-upload {
+  padding: 15px 10px;
+  font-family: "Lora", "sans-serif";
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--header-text-color);
+  outline: 0;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}

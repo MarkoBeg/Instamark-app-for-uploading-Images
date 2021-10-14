@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+  padding-top: 55px;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-right: none;
+}

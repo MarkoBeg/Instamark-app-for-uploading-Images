@@ -1,0 +1,40 @@
+.forumOption {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+}
+.forumOption-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forumOption-header > h5 {
+  font-size: var(--main-text);
+  color: var(--header-text-color);
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.forumOption-posts > form {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+.forumOption-posts > form > p {
+  font-size: var(--main-text);
+  font-weight: 600;
+  color: gray;
+  font-size: 14px;
+  max-width: 220px;
+  width: fit-content;
+}
+.time {
+  display: flex;
+  align-items: center;
+}
+.edit-input {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  outline: none;
+}
